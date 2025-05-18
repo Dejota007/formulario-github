@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE INGRESO</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form>
+        <h2>FORMULARIO DE CONTACTO</h2>
+        <fieldset>
+            <legend>INFORMACIÓN BÁSICA</legend>
+        <div class="form_input">
+            <label>Nombre Completo
+            <input class="input"  type="text" placeholder="Pablo Muakuku">
+        </label>
+        </div>
+        <div class="form_input">
+            <label>Email
+            <input class="input email" type="email" placeholder="Ejemplo@gmail.com">
+        </label>
+        </div>
+
+        <div class="form_input">
+            <label>Asunto
+            <input class="input"  type="text" placeholder="Asunto de tu mensaje">
+        </label>
+        </div>
+    </fieldset>
+        <div class="form_input">
+            <label>
+                Tipo de Usuario
+            <select class="input" aria-label="seleccione el tipo de usuario">
+                <option value="creador de contenido">Empresa</option>
+                <option value="un amigo">Persona Independiente</option>
+                <option  value="otro">Otro</option>
+            </select>
+        </label>   
+        </div>
+        <div class="form_input">
+            <label>Referente
+                <input  class="input" list="referente" aria-label="indica quién le recomendó o dirigió hasta aquí">
+                <datalist id="referente" class="input">
+                <option value="creador de contenido">internet</option>
+                <option value="un amigo">me recomendo un amigo</option>
+                <option value="otro">otro Referente</option>
+                </datalist>
+        </label>  
+        </div>
+
+        <div class="form_input">
+            <label>Mensaje
+            <textarea placeholder=" Escribir Mensaje..."></textarea>
+        </label>
+        </div>
+
+        <div class="form_input">
+            <label class="separar">Acepto los <a target="_blank" href="términos y condiciones.html" download class="terminos" >términos y condiciones</a>
+            <input class="checkbox" type="checkbox">
+        </label>
+        </div>
+
+        <div class="boxBOTÓN">
+        <input class="BOTÓN" type="submit" value="ENVIAR">
+    </div>
+    </form>
+<div class="form_input contactar">
+    <a class="terminos separar" href="mailto:jacintomigueln@gmail.com">Contáctenos al correo</a><span>  o  </span>
+<a class="terminos separar" href="tel:+240555680435">llame al número</a><span class="letra_pequeña"> (elija la opción pulsando) </span>
+</div>
+
+<div class="form_input">
+    <h2 class="h2_abajo">Preguntas frecuentes</h2>
+    <details>
+        <summary>¿por qué depositar mi información?</summary>
+        <p>Es necesario depositar la información para una mayor personalización de nuestros servicios y brindar ventajas convenientes a cada tipo de usuario</p>
+    </details>
+</div>
+<div class="form_input">
+    <details>
+        <summary>¿Es seguro depositar mi información?</summary>
+        <p>Sí, es más que seguro, con nuestra política de privacidad que no permite accesos externos ajenos a nosotros a los datos recopilados </p>
+    </details>
+</div>
+<div class="ultimo_div form_input">
+    <details>
+        <summary>¿Quiénes somos?</summary>
+        <P> Somos desarrolladores web con grandes ambiciones y con ganas de revolucionar el mundo a base de avances tecnológicos, estamos en crecimiento y en constante aprendizaje</P>
+    </details>
+</div>
+
+</body>
+</html>
