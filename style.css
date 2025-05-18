@@ -1,0 +1,122 @@
+body{ background-color: #222;
+    font-family: 'Times New Roman', Times, serif;;
+}
+.input,textarea,select{
+    width: 100%;
+    padding:7px 8px;
+    border: none;
+    border: solid 1px #666;
+    border-radius: 4px;
+    background-color: transparent; 
+    color: #ddd;box-sizing: border-box;font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 0 5px 0 #0003;
+}   
+.form_input{  
+padding: 5px 20px;
+}
+form{
+    background-color:transparent;
+    max-width: 500px;
+    padding: 20px 0;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0 #fff2;box-sizing: border-box;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: center;
+    color: #ddd;
+;
+}
+textarea{
+    background-color: transparent;
+    resize: none;
+    color: #ddd;
+    font-family: 'Times New Roman', Times, serif;;;
+    width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+}
+.boxBOTÓN{
+width: 100%;text-align: center;
+margin-top: 25px;
+}
+.BOTÓN{
+    padding: 10px;
+    background-color: transparent;
+    color: #ddd;
+    border: 1px solid #666;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    color: #ddd;
+    line-height: 2;
+}
+option{
+    background-color: #222;
+}
+
+legend{
+    color: #666;
+    margin: 5px;
+}
+fieldset{
+    border-radius: 4px;
+    border: 2px solid #666a;
+    padding: 0;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.checkbox{
+    padding: 0;
+}
+.terminos{
+    text-decoration: none;
+    color: rgba(108, 160, 238, 0.467);
+    font-weight: bold;
+}
+.separar{
+    letter-spacing: 1px;
+}
+.h2_abajo{
+    color: #bbb;
+    text-decoration: underline;
+
+}
+details{
+    text-align: center;
+    color: #ccc;
+    background-color: #444;
+    margin: auto;
+    border-radius: 4px;
+    max-width: 500px;
+}
+summary{
+    color: #ddd;
+    font-size: 1.1em;
+}
+.ultimo_div{
+    margin-bottom: 300px;
+}
+.contactar{
+    text-align: center;
+    color: #eee;
+}
+.letra_pequeña{
+    font-size: 0.8em;
+}
+.email:valid{
+    color: #0f0f;
+
+}
+email:invalid{
+    color: #f00f;
+
+}
+.input:hover{
+    box-shadow: 0 0 3px #ffff;
+}
+textarea:hover{
+    box-shadow: 0 0 3px #ffff;
+}
